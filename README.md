@@ -142,3 +142,12 @@ Among the findings, **Campaign 2's underperformance and the high value of the 33
 - **2014 data is incomplete.** The dataset's `Dt_Customer` field only extends through roughly the first half of 2014, so 2014 acquisition and revenue figures aren't directly comparable to full-year 2012/2013 totals.
 - **`Z_Revenue` is a placeholder field**, not real transaction revenue (flat $11 across all rows) — excluded from findings.
 - **This analysis is descriptive, not predictive.** It identifies what happened in the data, not why it happened or what will happen next — a natural next step would be hypothesis testing or a predictive model (e.g., churn or response propensity).
+
+## Repo structure
+ 
+```
+├── Customer Insights and Revenue Dashboard   # Tableau dashboard
+├── Marketing Campaign and Customer Behavior Analysis   # Presentation file
+├── campaign_customer_marketing.sql   # Cleaning + EDA queries
+├── README.md                           # This file
+```
